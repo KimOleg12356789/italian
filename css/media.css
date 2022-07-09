@@ -1,0 +1,522 @@
+
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 1400px;
+}
+
+}
+
+@media screen and (max-width: 1600px) {
+
+	.header-logo {
+	  width: 218px;
+	  transition: all 1s ease;
+	}
+}
+
+
+@media screen and (max-width: 1400px) {
+    .header-li:not(.menu-point):nth-child(n+9) {
+        display: none;
+    }
+
+    li.popup-menu-point:nth-child(n+8) {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 1366px) {
+
+	.menu-point:hover .menu-point-wrap .nav-point li .popup-menu-point {
+		display: block;
+	}
+
+}
+
+@media screen and (max-width: 1330px) {
+    .header-li:not(.menu-point):nth-child(n+8) {
+        display: none;
+    }
+    li.popup-menu-point:nth-child(n+7) {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+}
+
+
+/* стили для md-устройств */
+@media (max-width: 1250px) {
+
+    .header-li:not(.menu-point):nth-child(n+7) {
+        display: none;
+    }
+    li.popup-menu-point:nth-child(n+6) {
+        display: block;
+    }
+
+    .submenu .fixed-box {
+        display: none !important;
+    }
+
+	.header-open-pd {
+		overflow-y: scroll;
+		height: 450px;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+
+	.container {
+		max-width: 100%;
+	}
+
+	.sliding-panel-content {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 1180px) {
+
+
+}
+
+@media screen and (max-width: 1150px) {
+	.header-open-link-li a img {
+		width: auto;
+		height: auto;
+	}
+
+}
+
+@media screen and (max-width: 1120px) {
+    .header-li:not(.menu-point):nth-child(n+6) {
+        display: none;
+    }
+    li.popup-menu-point:nth-child(n+5) {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+
+}
+
+@media screen and (max-width: 1050px) {
+
+
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-social {
+        justify-content: center;
+    }
+    .footer-col {
+        padding: 15px 0 !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header-li:not(.menu-point):nth-child(n+5) {
+        display: none;
+    }
+    li.popup-menu-point:nth-child(n+4) {
+        display: block;
+    }
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+
+	.head-logo {
+	    text-align: right;
+	    padding: 0 0 0 0px;
+	}
+
+
+	.header-logo {
+    display: block !important;
+    width: auto;
+    margin: 0 0 0 auto;
+}
+	.header-li a {
+		font-size: 14px;
+	}
+
+	.header-li2 a {
+		font-size: 14px;
+	}
+
+	.scan input {
+		width: 150px;
+	}
+
+	.sliding-panel-content {
+		width: 37%;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 790px) {
+    .header-li:not(.menu-point):nth-child(n+4) {
+        display: none;
+    }
+    li.popup-menu-point:nth-child(n+3) {
+        display: block;
+    }
+}
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+	.sliding-panel-content {
+		width: 50%;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	.footer-block {
+		padding: 20px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 650px) {
+
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+.scan input {
+    width: 90px;
+}
+
+	.sliding-panel-content {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 630px) {
+    .header-li:not(.menu-point):nth-child(n+3) {
+        display: none;
+    }
+    li.popup-menu-point:nth-child(n+2) {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 575px) {
+	.filter-mb {
+		display: none;
+	}
+
+	.work-chekbox-mb {
+		display: block;
+	}
+
+	.sliding-panel-content {
+		width: 90%;
+	}	
+
+    .social-only-mb {
+        padding-left: 10px;
+        display: inline-block;
+    }
+
+    .phone-icon {
+        width: 24px;
+    }
+
+	div.product-like {
+		z-index: 0;
+	}
+
+
+	div.product-like, div.product-like.checked {
+		opacity: 1 !important;
+		top:10px;
+		right: 10px;
+        background-color: #fff !important;
+	}
+
+	div.product-like:hover:before {
+		display: none;
+	}
+
+    .text-chekbox {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+	.text-chekbox2 img {
+		margin: -2px 0 0 0;
+	}
+
+	.col-ft2 {
+    		padding: 0 15px 0 10px;
+		}
+
+
+		.col-right-work {
+			
+		}
+
+	.footer-li a {
+		font-size: 16px;
+	}
+
+
+	.col-ft {
+    padding: 0 0 0 15px;
+}
+
+
+	.col-header {
+		padding: 0 15px 0 0;
+	}
+
+	.acc-search {
+		background: none;
+		height: 35px;
+		width: 90%;
+	}
+
+
+	.head-wrap {
+		padding: 0 15px 0 15px;
+	}
+
+	.checkbox > [type=checkbox]:not(:checked) + label:after, .checkbox > [type=checkbox]:checked + label:after {
+	    font: normal normal normal 12px/1 "Glyphicons Halflings";
+	    content: '';
+	    position: absolute;
+	    top: 50%;
+	    width: 11px;
+	    height: 11px;
+        margin-top: -5.5px;
+        left: 3.5px;
+	    color: #ffffff;
+	    background: #333;
+	    transition: all 0.2s;
+	    padding: 0.21em;
+	}
+
+    .checkbox > [type=checkbox]:not(:checked) + label:before, .checkbox > [type=checkbox]:checked + label:before {
+		border-radius: 50%;
+        left: 0px;
+        top: 50%;
+        margin-top: -9px;
+        width: 18px;
+        height: 18px;
+	}
+
+	.checkbox > [type=checkbox]:checked + label:after {
+		border-radius: 50%;
+	}
+
+	.sidebar-menu3:after {
+		right: 7px;
+	}
+
+	.sidebar-menu3:before {
+		right: 7px;
+	}
+
+	.work-right {
+	    padding: 50px 0 0 0;
+	    margin: 0 0px 0 0;
+	}
+
+	.header-ul {
+		display: none;
+	}
+
+	.header-ul2 {
+		display: none;
+	}
+
+	.header-link {
+		display: none !important;
+	}
+
+	.col-12 {
+		padding: 0;
+	}
+
+	.work {
+		padding: 20px 0 20px 0;
+	}
+
+
+	.container-fluid {
+		padding: 0;
+	}
+
+	.col-md-12 {
+		padding: 0;
+	}
+
+	.work-right {
+		padding: 10px 0 0 0;
+	}
+
+	.product-block {
+		padding: 0 0 20px 0;
+		margin: 10px 0 0 0;
+	}
+
+	.social-mb {
+		display: none;
+	}
+
+	.social-ul {
+		padding: 20px 0 0 0;
+	}
+
+	.mobila-header {
+		display: flex;
+	}
+
+	/*Burger*/
+
+	  .burger {
+	    display: block !important;
+	  }
+
+	  .mt-munu-mb .header-navigation-wr {
+	    display: block !important;
+	  }
+
+	  .burger2 {
+	    display: block !important;
+	  }
+
+	  .mt-munu-mb2 .header-navigation-wr {
+	    display: block !important;
+	  }
+
+
+	.product-brand {
+		padding: 10px 0 0 5px;
+	}
+
+	.product-name {
+		padding: 0 0 0 5px;
+		font-size: 12px;
+	}
+
+	.product-price {
+		padding: 10px 0 0 5px;
+	}
+
+	.catalog-titles {
+		display: none;
+	}
+
+	.modal-mobila {
+	  display: block;
+	}
+
+	.sortirovka-mobila {
+		display: block;
+		    padding: 25px 0 0 0;
+		text-align: right;
+	}
+
+	.header-input {
+		height: 35px;
+	}
+
+	.catalog-sortirovka {
+		display: none;
+	}
+
+	.burger-box {
+    z-index: 10;
+    position: relative;
+    display: block;
+    width: 145px;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+
+.burger i svg {
+    width: 30px;
+    height: 30px;
+}
+
+	.header-link-mobila {
+		display: block;
+		padding: 17px 0 0 0;
+	}
+
+	.header-fixed {
+		z-index: unset;
+		position: relative;
+	}
+
+	.header-fixed.sticky {
+		position: relative;
+	}
+
+	.header-link {
+		display: block !important;
+	}
+
+		.header-link-mobila {
+  		padding: 10px 0 0 8px;
+  	}
+
+  	.header-link {
+  		display: none;
+  	}
+}
+
+
+
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+  
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+  	.social-ul {
+  		padding: 0 0 0 0;
+  	}
+
+  	.header-link-mobila {
+  		padding: 10px 0 0 8px;
+  	}
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+
+}
