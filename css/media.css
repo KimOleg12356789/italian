@@ -1,0 +1,476 @@
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+.company-block-wrap {
+    padding: 73px 0 0 20px;
+    width: 550px;
+}
+}
+
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+.company-absolute {
+    position: absolute;
+    top: 0;
+    left: unset;
+    right: 0;
+    bottom: 0;
+    width: 429px;
+    right: 0;
+    content: '';
+    background: url(../images/company-bg.png) 100% 0 no-repeat;
+}
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1100px) {
+.menu-top {
+    width: 38%;
+}
+
+.logo {
+    width: 27%;
+    text-align: center;
+    padding: 0 0px 0 0px;
+}
+
+.phone-top-wrap {
+    width: 40%;
+    justify-content: flex-end;
+}
+  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+
+  .block-text-img5 {
+    text-align: left;
+    padding: 0 0 0 20px;
+}
+
+.company-absolute {
+    position: absolute;
+    top: 0;
+    left: unset;
+    right: 0;
+    bottom: 0;
+    width: 399px;
+    right: 0;
+    content: '';
+    background: url(../images/company-bg.png) 100% 0 no-repeat;
+}
+
+}
+
+@media screen and (max-width: 950px) {
+.comapny-section {
+    position: relative;
+    background: #352C2C;
+    height: auto;
+    margin: 0 0 25px 0;
+    padding: 0 0 70px 0;
+}
+
+.company-block-wrap {
+    padding: 73px 0 0 20px;
+    width: 490px;
+}
+
+.company-absolute {
+    position: absolute;
+    top: 0;
+    left: unset;
+    right: 0;
+    bottom: 0;
+    width: 329px;
+    right: 0;
+    content: '';
+    background: url(../images/company-bg.png) 100% 0 no-repeat;
+}
+
+}
+
+@media screen and (max-width: 850px) {
+
+.logo-company-left {
+  border-bottom: 1px solid #fff;
+  width: 40%;
+}
+
+.logo-conmpany {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  width: 20%;
+  text-align: center;
+}
+
+.logo-company-right {
+  border-bottom: 1px solid #fff;
+  width: 40%;
+}
+
+.company-absolute {
+    position: relative;
+    top: unset;
+    left: unset;
+    height: 370px;
+    right: 0;
+    bottom: unset;
+    width: 100%;
+    right: 0;
+    content: '';
+    background: url(../images/company-bg.png) 0% 0 no-repeat;
+    background-size: cover;
+}
+
+.company-block-wrap {
+    padding: 43px 20px 40px 20px;
+    width: auto;
+}
+
+.comapny-section {
+    position: relative;
+    background: #352C2C;
+    height: auto;
+    margin: 0 0 27px 0;
+    padding: 0 0 0px 0;
+}
+
+.company-title {
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+}
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+
+
+    .phone-top-wrap {
+        display: none;
+    }
+
+    .company-block-wrap {
+    padding: 43px 0px 40px 0px;
+    width: auto;
+}
+
+    .logo {
+    width: 15%;
+    text-align: left;
+    padding: 0 0px 0 0px;
+    order: 1;
+}
+
+    .menu-top-wrap {
+    border: 1px solid #FFFFFF;
+    padding: 4px 20px;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 90px 0;
+}
+
+    .menu-top {
+    width: 25%;
+    order: 2;
+    text-align: right;
+    padding: 0 5px 0 0px;
+}
+
+    .menu-top img {
+    width: 70px;
+}
+
+    .phone-bt-wrap {
+    display: flex;
+    width: 100%;
+}
+
+.ft-block2 {
+    width: 60%;
+}
+
+.ft-block-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 700px) {
+
+    .about-block-wrap {
+        display: block;
+    }
+
+    .about-block {
+        width: 100%;
+    }
+
+    .about-block2 {
+        display: none;
+    }
+
+    .text-block {
+        position: relative;
+        width: 45%;
+        border-bottom: 1px solid #000;
+    }
+
+    .text-block2 {
+        width: 45%;
+        border-bottom: 1px solid #000;
+        padding: 43px 0px 17px 0;
+    }
+
+    .block-center {
+        width: 10%;
+        text-align: center;
+        padding: 50px 0 0 0;
+    }
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+
+    .head-block-mb-wrap {
+        display: block;
+    }
+
+    .head-block-wrap {
+        display: none;
+    }
+
+    .head-block4:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    z-index: 1;
+    background: url(../images/bank.png) center 103% no-repeat;
+    background-size: 60%;
+}
+
+    .logo-company-left {
+  border-bottom: 1px solid #fff;
+  width: 38%;
+}
+
+.logo-conmpany {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  width: 24%;
+  text-align: center;
+}
+
+.logo-company-right {
+  border-bottom: 1px solid #fff;
+  width: 38%;
+}
+
+    .text-block {
+        
+    }
+
+    .block-text-img5 {
+    text-align: center;
+    padding: 0 0 0 0px;
+}
+
+    .menu-top-wrap {
+    border: 1px solid #FFFFFF;
+    padding: 4px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 90px 0;
+}
+
+    .menu-top img {
+        width: 50px;
+    }
+
+    .head-block-wrap {
+        display: none;
+    }
+
+    .head-block img {
+        width: 100%;
+    }
+
+    .head-block2 img {
+        width: 100%;
+    }
+
+    .head-block3 img {
+        width: 100%;
+    }
+
+
+    .head-block4 img {
+        width: 100%;
+    }
+
+
+    .head-block5 img {
+        width: 100%;
+    }
+
+    .logo {
+        width: 15%;
+        text-align: left;
+        padding: 0 0px 0 0px;
+    }
+.ft-block-wrap{
+    display: block;
+}
+
+.ft-block {
+    width: 100%;
+}
+
+.ft-block2 {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.phone-bt-wrap {
+    justify-content: flex-start;
+}
+
+
+
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+
+    .block-center2 {
+        padding: 20px 0 0 0 !important;
+    }
+    .head-block4:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: '';
+        z-index: 1;
+        background: url(../images/bank.png) center 102.5% no-repeat;
+        background-size: 60%;
+    }
+
+
+    .block-center img {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: block;
+    }
+
+
+    .text-block {
+        
+        margin: 0 0 20px 0;
+    }
+
+    .text-block2 {
+        border-bottom: 1px solid #000 !important;
+    }
+
+
+  .menu-top-wrap {
+    border: 1px solid #FFFFFF;
+    padding: 4px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 90px 0;
+}
+
+.text-block-wrap {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+
+.block-center {
+    width: 10%;
+    display: block;
+    /* text-align: right; */
+    padding: 0px 0 0 0;
+    /* position: absolute; */
+    /* right: 0; */
+    /* top: 59%; */
+    /* height: 261px; */
+    /* text-align: center; */
+    float: right;
+}
+
+.text-block2 {
+    width: 100%;
+    border-bottom: none;
+    padding: 0 0px 17px 0;
+}
+
+.text-block {
+    position: relative;
+    width: 100%;
+    border-bottom: none;
+}
+
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+.brend-title {
+    font-size: 27px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main-text {
+    font-size: 37px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+
+}
